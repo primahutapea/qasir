@@ -1,0 +1,302 @@
+{
+  "id": "128bd466-2bbb-48a0-94ab-00aebba190ba",
+  "version": "2.0",
+  "name": "qasir",
+  "url": "https://web.qasir.id/sign-in",
+  "tests": [{
+    "id": "55f7c75c-fbd7-4871-aa03-2711faaa91d3",
+    "name": "tes_web qasir",
+    "commands": [{
+      "id": "cde02421-e6af-4fc9-af7e-89ceee63b933",
+      "comment": "",
+      "command": "//",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4494225f-7a5a-4651-bceb-b279a8faa702",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.qasir.id/sign-in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c386d81f-2cde-4036-ba92-df1d56436f0a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "086caf21-d88c-42ef-9dbf-56a4de534730",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-in-phonenumber",
+      "targets": [
+        ["id=sign-in-phonenumber", "id"],
+        ["name=phonenumber", "name"],
+        ["css=#sign-in-phonenumber", "css:finder"],
+        ["xpath=//input[@id='sign-in-phonenumber']", "xpath:attributes"],
+        ["xpath=//div[@id='w-tabs-0-data-w-pane-0']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38dd1397-f35f-4590-a0c8-5842c4bbd399",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-in-phonenumber",
+      "targets": [
+        ["id=sign-in-phonenumber", "id"],
+        ["name=phonenumber", "name"],
+        ["css=#sign-in-phonenumber", "css:finder"],
+        ["xpath=//input[@id='sign-in-phonenumber']", "xpath:attributes"],
+        ["xpath=//div[@id='w-tabs-0-data-w-pane-0']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "82298881014"
+    }, {
+      "id": "413798bf-b417-41f8-bf51-6d2f66d7dbd8",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-phone']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb6442c3-6050-413f-b4e9-6facf232ec6b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-phone']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "261098"
+    }, {
+      "id": "1610c297-f4d8-47b9-87f9-55c0225beec1",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn-signin",
+      "targets": [
+        ["id=submit-btn-signin", "id"],
+        ["css=#submit-btn-signin", "css:finder"],
+        ["xpath=//input[@id='submit-btn-signin']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-phone']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9bea716c-b534-4e36-9c4a-dffa38686d9d",
+    "name": "tes_web qasir (1)",
+    "commands": [{
+      "id": "e1b74d79-5bfd-470e-8028-da67a6fcaac3",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.qasir.id/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02694f2-81e7-4adf-b6c7-bbf5ba1c9180",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0853362-5823-442d-ab03-b7296f8824a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Masuk",
+      "targets": [
+        ["linkText=Masuk", "linkText"],
+        ["css=.navbarbtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Masuk')]", "xpath:link"],
+        ["xpath=//header[@id='nav']/nav/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sign-in')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3207dfbe-4d9f-4826-ba49-dbc7919e6a42",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign-in-phonenumber",
+      "targets": [
+        ["id=sign-in-phonenumber", "id"],
+        ["name=phonenumber", "name"],
+        ["css=#sign-in-phonenumber", "css:finder"],
+        ["xpath=//input[@id='sign-in-phonenumber']", "xpath:attributes"],
+        ["xpath=//div[@id='w-tabs-0-data-w-pane-0']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35bd5aa0-f934-45d4-91c5-f987902540be",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign-in-phonenumber",
+      "targets": [
+        ["id=sign-in-phonenumber", "id"],
+        ["name=phonenumber", "name"],
+        ["css=#sign-in-phonenumber", "css:finder"],
+        ["xpath=//input[@id='sign-in-phonenumber']", "xpath:attributes"],
+        ["xpath=//div[@id='w-tabs-0-data-w-pane-0']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "82298881014"
+    }, {
+      "id": "72a51158-41cc-40d6-9451-710134d27fad",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-phone']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bde7706-7a53-4271-a41c-023014489607",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-phone']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "261098"
+    }, {
+      "id": "3946ee44-4296-43bc-be7e-39a665ece33c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-btn-signin",
+      "targets": [
+        ["id=submit-btn-signin", "id"],
+        ["css=#submit-btn-signin", "css:finder"],
+        ["xpath=//input[@id='submit-btn-signin']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-phone']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d75c286-6d4a-4228-bb0a-3b6f2592515f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item-select-outlet:nth-child(1)",
+      "targets": [
+        ["css=.item-select-outlet:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='list-select-outlet']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0022b8a3-c318-49ad-84ac-d665380eb0cf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.text-block-21",
+      "targets": [
+        ["css=.text-block-21", "css:finder"],
+        ["xpath=//a[@id='trigger-tab-phone-number']/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a2839a3-8427-4406-ad17-b7a3d9da620f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-select-outlet:nth-child(2) .text-block-44",
+      "targets": [
+        ["css=.item-select-outlet:nth-child(2) .text-block-44", "css:finder"],
+        ["xpath=//div[@id='list-select-outlet']/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6fb0ce-23fb-4e27-ab2c-a9bb191f5def",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.new-user-image > .img-circle",
+      "targets": [
+        ["css=.new-user-image > .img-circle", "css:finder"],
+        ["xpath=//img[@alt='Prima Hutapea']", "xpath:img"],
+        ["xpath=//div[@id='navbarInstance']/div/div/div/ul/li/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20695deb-8be8-42fc-b21b-b9cbe3a94e1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-user-image > .img-circle",
+      "targets": [
+        ["css=.new-user-image > .img-circle", "css:finder"],
+        ["xpath=//img[@alt='Prima Hutapea']", "xpath:img"],
+        ["xpath=//div[@id='navbarInstance']/div/div/div/ul/li/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b50cf5-af8c-4cc5-9074-25126efd9f73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.new-user-image > .img-circle",
+      "targets": [
+        ["css=.new-user-image > .img-circle", "css:finder"],
+        ["xpath=//img[@alt='Prima Hutapea']", "xpath:img"],
+        ["xpath=//div[@id='navbarInstance']/div/div/div/ul/li/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e80b7992-f677-4cb2-9b3b-753023d32c18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-dropdown:nth-child(3) > a",
+      "targets": [
+        ["css=.list-dropdown:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='navbarInstance']/div/div/div/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://hutapea-563356.qasir.id/account/profile')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Profil Pengguna')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77863391-88b4-43e6-b1e9-ac91f62dcebf",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0b7cac0c-f98b-412f-9657-eedeb85fc969",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55f7c75c-fbd7-4871-aa03-2711faaa91d3"]
+  }],
+  "urls": ["https://web.qasir.id/", "https://web.qasir.id/sign-in"],
+  "plugins": []
+}
